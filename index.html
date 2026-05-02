@@ -3,115 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arron Creighton | Portfolio</title>
+    <title>Arron Creighton | Personal Site</title>
+    <meta name="description" content="Personal site for Arron Creighton, data analytics apprentice in Brooklyn." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <div class="container">
-        <h1>Arron Creighton</h1>
-        <p class="tagline">Data Analytics Apprentice | Logistics & Inventory Operations</p>
-        <p>Brooklyn, NY · <a href="mailto:arroncreighton@gmail.com">arroncreighton@gmail.com</a></p>
-        <nav>
-          <a href="#summary">Summary</a>
-          <a href="#skills">Skills</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#education">Education</a>
-        </nav>
-      </div>
+    <header class="site-header container">
+      <a class="logo" href="#">Arron.</a>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#work">What I Do</a>
+        <a href="#project">Project</a>
+        <a href="#connect">Connect</a>
+      </nav>
     </header>
 
     <main class="container">
-      <section id="summary" class="card">
-        <h2>Professional Summary</h2>
+      <section class="hero">
+        <div>
+          <p class="kicker">Hi, I’m Arron 👋</p>
+          <h1>I use data to make operations smoother and decisions clearer.</h1>
+          <p class="intro">
+            I’m a Data Analytics Apprentice at Google based in Brooklyn, NY. I enjoy turning messy datasets into
+            practical insights, and I bring years of on-the-ground logistics experience to every analysis.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="mailto:arroncreighton@gmail.com">Say Hello</a>
+            <a class="btn" href="#project">See My Work</a>
+          </div>
+        </div>
+        <aside class="profile-card">
+          <h2>Quick Facts</h2>
+          <ul>
+            <li>📍 Brooklyn, NY</li>
+            <li>💼 Data Analytics Apprentice @ Google</li>
+            <li>📊 SQL, Python, Tableau / Power BI</li>
+            <li>📦 Former Warehouse Associate @ Odeko</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="about" class="card">
+        <h2>About Me</h2>
         <p>
-          Analytical and detail-oriented professional with a background in computer systems and logistical
-          operations. Adept at integrating technical data management with hands-on warehouse experience to
-          optimize inventory accuracy and workflow efficiency. Proficient in MySQL, data visualization, and data
-          cleaning, with a proven track record of using data-driven insights to solve complex operational
-          challenges in fast-paced environments.
+          I’m analytical, detail-oriented, and motivated by solving real-world problems. My background combines
+          computer systems training with logistics operations, so I naturally focus on accuracy, efficiency, and
+          practical outcomes. I’m especially interested in analytics roles where data can directly improve how teams
+          plan, ship, and serve.
         </p>
       </section>
 
-      <section id="skills" class="card">
-        <h2>Technical Skills</h2>
-        <div class="grid">
-          <div>
-            <h3>Data Analysis</h3>
-            <ul>
-              <li>Data Cleaning</li>
-              <li>Statistical Analysis</li>
-              <li>Critical Thinking</li>
-              <li>Trend Identification</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Tools & Languages</h3>
-            <ul>
-              <li>MySQL</li>
-              <li>Python</li>
-              <li>HTML/CSS</li>
-              <li>Microsoft Excel</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Visualization</h3>
-            <ul>
-              <li>Tableau / Power BI</li>
-              <li>Presentation of Analytical Findings</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Operational</h3>
-            <ul>
-              <li>Logistics Coordination</li>
-              <li>Inventory Management</li>
-              <li>Cycle Counting</li>
-            </ul>
-          </div>
+      <section id="work" class="card">
+        <h2>What I Do</h2>
+        <div class="grid two">
+          <article>
+            <h3>Data & Analytics</h3>
+            <p>Data Cleaning · Statistical Analysis · Trend Identification · SQL Reporting · Dashboard Storytelling</p>
+          </article>
+          <article>
+            <h3>Operations Lens</h3>
+            <p>Inventory Management · Cycle Counting · Logistics Coordination · Workflow Optimization</p>
+          </article>
         </div>
       </section>
 
-      <section id="experience" class="card">
-        <h2>Professional Experience</h2>
-        <article>
-          <h3>Google — Data Analytics Apprentice</h3>
-          <p class="meta">Feb 2025 – Present</p>
+      <section class="card">
+        <h2>Experience</h2>
+        <div class="timeline-item">
+          <h3>Google — Data Analytics Apprentice <span>Feb 2025 – Present</span></h3>
           <ul>
-            <li>Applied advanced analytical methodologies to real-world datasets, focusing on data integrity and actionable insights.</li>
-            <li>Utilized SQL for complex data retrieval and manipulation, streamlining reporting processes for stakeholders.</li>
-            <li>Developed visualization dashboards to communicate technical findings to non-technical audiences.</li>
+            <li>Apply analytical methods to real-world datasets with emphasis on integrity and reliability.</li>
+            <li>Use SQL for complex queries and reporting support.</li>
+            <li>Create dashboards that make technical findings easy to understand.</li>
           </ul>
-        </article>
-        <article>
-          <h3>Odeko — Warehouse Associate</h3>
-          <p class="meta">July 2021 – Feb 2025</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Odeko — Warehouse Associate <span>Jul 2021 – Feb 2025</span></h3>
           <ul>
-            <li>Managed inventory accuracy through cycle counts and physical audits, reconciling data discrepancies.</li>
-            <li>Coordinated receiving and dispatch workflows with full quantity verification against purchase orders.</li>
-            <li>Maintained high-volume order fulfillment performance and achieved a 95% success rate.</li>
+            <li>Maintained inventory accuracy through cycle counts, audits, and discrepancy reconciliation.</li>
+            <li>Coordinated receiving/dispatch with full quantity verification.</li>
+            <li>Sustained high-volume fulfillment performance with a 95% success rate.</li>
           </ul>
-        </article>
+        </div>
       </section>
 
-      <section id="projects" class="card">
+      <section id="project" class="card">
         <h2>Featured Project</h2>
-        <article>
-          <h3>2025 NYC Payroll Dashboard</h3>
-          <p>
-            Built a dashboard to explore Python packages and strengthen dashboarding skills, with real-time analysis
-            and visualizations for NYC employee payroll data.
-          </p>
-        </article>
+        <h3>2025 NYC Payroll Dashboard</h3>
+        <p>
+          I built this project to explore Python packages and strengthen my dashboarding workflow. It provides
+          near-real-time analysis and visualizations of NYC employee payroll data.
+        </p>
       </section>
 
-      <section id="education" class="card">
-        <h2>Education & Certifications</h2>
-        <ul>
-          <li>Google Data Analytics Certification</li>
-          <li>Associate’s Degree, Computer Systems Technology — TCI College</li>
-        </ul>
+      <section class="card split" id="connect">
+        <div>
+          <h2>Education & Certification</h2>
+          <p>Associate’s Degree, Computer Systems Technology — TCI College</p>
+          <p>Google Data Analytics Certification</p>
+        </div>
+        <div>
+          <h2>Connect</h2>
+          <p>Email: <a href="mailto:arroncreighton@gmail.com">arroncreighton@gmail.com</a></p>
+          <p>LinkedIn: <a href="#">Add your profile URL</a></p>
+          <p>GitHub: <a href="#">Add your GitHub URL</a></p>
+        </div>
       </section>
     </main>
   </body>
